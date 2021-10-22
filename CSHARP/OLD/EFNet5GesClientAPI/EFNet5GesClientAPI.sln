@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFNet5GesClientAPI", "EFNet5GesClientAPI.csproj", "{C999FFA1-11FD-4742-B48C-1B59A667CCCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{36C87CC7-A011-444E-A2B5-3E0288DDAB40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C999FFA1-11FD-4742-B48C-1B59A667CCCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C999FFA1-11FD-4742-B48C-1B59A667CCCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C999FFA1-11FD-4742-B48C-1B59A667CCCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C999FFA1-11FD-4742-B48C-1B59A667CCCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C87CC7-A011-444E-A2B5-3E0288DDAB40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C87CC7-A011-444E-A2B5-3E0288DDAB40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C87CC7-A011-444E-A2B5-3E0288DDAB40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C87CC7-A011-444E-A2B5-3E0288DDAB40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B01BCF9B-F3AD-408A-9AF9-1F4EB26A0A2F}
+	EndGlobalSection
+EndGlobal

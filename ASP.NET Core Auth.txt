@@ -1,0 +1,2 @@
+#ASP #WebAPI #BasicAuthentication
+ASP.NET Core Web API + Entity Framework Core : Basic Authentication Explained - EP07

@@ -1,0 +1,12 @@
+---------> Dependances <-----------
+Microsoft.EntityFrameworkCore.sqlserver => Class Librairy
+Microsoft.EntityFrameworkCore.tools => API
+
+
+--------> Commandes de migration de données <---------------
+Add-Migration <Nom_de_la_migration> => Librairy de classe EntityFramework
+Remove-Migration pour supprimer
+
+Update-Database pour crer
+
+Mon API : https://delworkcompute/
