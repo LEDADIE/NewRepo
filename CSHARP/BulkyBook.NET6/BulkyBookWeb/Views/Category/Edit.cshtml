@@ -1,12 +1,16 @@
 ﻿@model Category;
 
-<form method="post">
+<form method="post" asp-action="Edit">
+	<input asp-for="CategoryId" hidden />
+
 	<div class="border p-3 mt-4 rounded-3">
 		<div class="row pb-2">
-			<h2 class="text-primary">Create category</h2>
-			<hr/>
+			<h2 class="text-primary">Edit category</h2>
+			<hr />
 		</div>
+
 		@*<div asp-validation-summary="All"></div>*@
+
 		<div class="mb-3">
 			<label asp-for="Name"></label>
 			<input asp-for="Name" class="form-control"/>
@@ -17,11 +21,13 @@
 			<input asp-for="Displayorder" class="form-control"/>
 			<span asp-validation-for="Displayorder" class="text-danger"></span>
 		</div>
-		<button type="submit" class="btn btn-primary" style="width:150px">Create</button>
+
+		<button type="submit" class="btn btn-primary" style="width:150px">Update</button>
 		<a asp-controller="Category" asp-action="Index" class="btn btn-secondary" style="width:150px">Back to list</a>
 	</div>
 </form>
 
+@*Pour empecher le rechargerment quand les champs n'ont pas de valeurs validées *@
 @section Scripts{
 	@{
 		<partial name="_ValidationScriptsPartial" />
